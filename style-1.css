@@ -9,7 +9,7 @@ body{
 
 
 .container__social--mod{
-    padding: 10px;
+    padding: 0.625rem;
     background: #424242;
 }
 .container__social--mod a{
