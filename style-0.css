@@ -38,7 +38,18 @@
 }
 
 .container__audiovisual{
-    border: 1px solid  rgb(80, 80, 80);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto ;
+    grid-template-areas: "title title title title"
+                         "row2left row2left row2right row2right"
+                         "row3left row3left row3right row3right";
+    
+    
+    align-content: start;                    
+    align-items:start;
+    
+    gap: 2rem;
 }
 
 .container__footer{
