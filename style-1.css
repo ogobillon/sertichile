@@ -2,13 +2,15 @@
 body{
     font-size: 16px;
 }
+
 .container--mod{
+    font-family: Arial, Helvetica, sans-serif;
     background: #fff;
-
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
-
-
-
+/*--------------------------------- SOCIAL ---------------------------------*/
 .container__social--mod{
     padding: 0.625rem;
     background: #424242;
@@ -23,42 +25,37 @@ body{
 .container__social--mod a:hover{
     color: #ffffff;
 }
-
+/*--------------------------------- HEADER ---------------------------------*/
 .container__header--mod{
     background: #181818;
     background: linear-gradient(to left, #222222, #121212);
     
 }
+
 .container__header--mod a{
     text-decoration: none;
 }
 
-
 .container__header__left{
     display: grid;
-    align-items: center;
-    
-    
-    }
+    align-items: center;  
+}
 
 .container__header__left h3{
-
     position:relative;
     bottom: 35px;
-
-    background: -webkit-linear-gradient(left top, red, yellow);
-  background: linear-gradient(to bottom right, red, yellow);
-  -webkit-background-clip: text;  
-  -webkit-text-fill-color: transparent; 
-   
     margin-left: 10%;
     margin-top: 0;
     margin-bottom: 0;
-    font-family: 'Cinzel Decorative', cursive;
-    /*color:  #641e16;*/
- 
-    font-size: 80px;
-    -webkit-text-stroke: 2px #000;
+    /*background: -webkit-linear-gradient(left top, rgb(5, 22, 255), rgb(255, 0, 191));
+    background: linear-gradient(to bottom right,  rgb(5, 22, 255), rgb(255, 0, 191));
+     -webkit-background-clip: text;  
+     -webkit-text-fill-color: transparent; 
+    
+    /*font-family: 'Cinzel Decorative', cursive;*/
+    color: rgb(5, 22, 255);
+    font-size: 5em;
+    -webkit-text-stroke: 2px rgb(255, 255, 255);
 }
 
 .container__header__right{
@@ -67,30 +64,35 @@ flex-direction: row;
 flex-wrap: nowrap;
 align-items: center;
 padding-left: 80px;
-
 }
+
 .container__header__right h2{
-
-    font-family: 'Krona One', sans-serif;
-    font-size: 16px;
-    margin: 20px 50px 0 0;
+    font-size: 1em;
+    padding: 0.8125em 3.125em 0 0.8125em;
     color: #fff;
+    letter-spacing: 1.5px;
 }
+/*--------------------------------- INFORMATICA ---------------------------------*/
 
-
-
+.container__informatica--mod{
+    margin-top: 5px;
+}
 .container__informatica__item:nth-child(1){
     grid-area: title;
 }
+
 .container__informatica__item:nth-child(2){
     grid-area: row31;
 }
+
 .container__informatica__item:nth-child(3){
     grid-area: row32;
 }
+
 .container__informatica__item:nth-child(4){
     grid-area: row33;
 }
+
 .container__informatica__item:nth-child(5){
     grid-area: row34;
 }
@@ -100,89 +102,110 @@ padding-left: 80px;
     border: 1px solid rgb(244,244,244);
     background: rgb(244,244,244);
 }
+
 .container__informatica__item__title{
-  
-    position: relative;
     text-align: center;
+
+    background: linear-gradient(to right, rgba(5, 22, 255,0.8), rgba(255, 0, 191,1)), url(img/binary.png);
+    
+    color: #fff;
+    
 }
+
 .container__informatica__item__title h4{
-    position:absolute;
-    font-size: 2.875rem;
-    top:15%;
-    left:0;
-    right:0;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 3rem;
+    letter-spacing: 2px;
+    padding: 0.8em;
 }
 
 .container__informatica__item__title img{
     opacity: 0.3;
 }
+
 .container__informatica__item__text{
-    font-family: "Noto Sans", "Helvetica", sans-serif;
     background: rgb(244,244,244);
     padding: 10px;
 }
-.container__informatica__item img{
 
+.container__informatica__item img{
     width: 100%;
     color:rgb(51,51,51); 
 }
 
 .container__informatica__item__text h3{
-    color:rgb(0, 20, 204);
-    font-weight: 500;
+    /*color:rgb(0, 20, 204);*/
+    color: rgb(5, 22, 255);
+    font-weight: 700;
     font-size: 22px;
     margin-bottom: 20px;
     margin-top: 20px;   
 }
+
 .container__informatica__item__text p{
     color:rgb(51,51,51);
     font-size: 16px;
     line-height: 24px;
 }
-
+/*--------------------------------- AUDIOVISUAL ---------------------------------*/
 .container__audiovisual--mod{
-   font-family: 'Raleway', sans-serif;
    background: #2c2c2c;
    color: #fff;
    font-size: 1rem;
    padding: 3em;
+   margin-top: 5px;
 }
 
 .container__audiovisual--mod h2{
-    
     text-transform: uppercase;
-    font-size: 2.5em;
+    font-size: 2em;
     font-weight: 700;
     line-height: 3rem;
     letter-spacing: 2px;
 }
+
 .container__audiovisual__item:nth-child(1){
     grid-area: title;
     justify-self: center;
 }
+
 .container__audiovisual__item:nth-child(2){
     grid-area: row2left;
 }
+
 .container__audiovisual__item:nth-child(3){
     grid-area: row2right;
 }
+
 .container__audiovisual__item:nth-child(4){
     grid-area: row3left;
 }
+
 .container__audiovisual__item:nth-child(5){
     grid-area: row3right;
 }
 
-img.container__audiovisual__item { 
+div.container__audiovisual__item { 
     width: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding: 10px;
+    background: 
+ 
+    linear-gradient(
+      to left,
+      rgba(238, 194, 0,0.3),
+      #2c2c2c
+    );
 }
 
 .container__audiovisual__item__child1{
     text-align: right;
 }
+
 .container__audiovisual__item__child2{
     text-align: left;
 }
@@ -191,40 +214,39 @@ img.container__audiovisual__item {
     font-size: 1.5em;
     line-height: 2.25em;
     letter-spacing: 1.2px;
-    
 }
+
 .container__audiovisual__item p{
     font-size: 1em;
     line-height: 1.3894em;
     letter-spacing: 1.2px;
     margin-bottom: 2em;
-    
 }
 
+
+/*--------------------------------- FOOTER ---------------------------------*/
 .container__footer--mod{
     background: #424242;
+    margin-top: 5px;
 }
 
-
 .container__footer h4{
-    font-family: 'Krona One', sans-serif;
     margin-bottom: 20px;
     margin-top: 50px;
 }
+
 .container__footer a{
-    font-family: 'Krona One', sans-serif;
     text-decoration: none;
     color:rgb(110, 110, 110);
     font-size: 12px;
-    
-
 }
+
 .container__footer li{
     margin-top: 10px;
 }
-.container__footer ul{
 
+.container__footer ul{
     list-style-type: none;
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
