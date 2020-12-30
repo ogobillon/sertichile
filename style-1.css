@@ -29,6 +29,7 @@ body{
 .container__header--mod{
     background: #181818;
     background: linear-gradient(to left, #222222, #121212);
+    border-top: 2px solid rgba(255, 0, 191,1);
     
 }
 
@@ -69,7 +70,7 @@ padding-left: 80px;
 /*--------------------------------- INFORMATICA ---------------------------------*/
 
 .container__informatica--mod{
-    margin-top: 5px;
+    margin-top: 1em;
 }
 .container__informatica__item:nth-child(1){
     grid-area: title;
@@ -92,7 +93,7 @@ padding-left: 80px;
 }
 
 .container__informatica__item__box{
-    height: 410px;
+    height: 420px;
     border: 1px solid rgb(244,244,244);
     background: rgb(244,244,244);
 }
@@ -146,8 +147,9 @@ padding-left: 80px;
   /* background: #2c2c2c;*/
    color: #fff;
    font-size: 1rem;
-   
-   margin-top: 5px;
+   height: auto;
+   margin-top: 1em;
+
 }
 
 .container__audiovisual--mod h2{
@@ -179,36 +181,29 @@ padding-left: 80px;
 }
 
 .container__audiovisual__item:nth-child(2){
-    grid-area: rowleft;
+    grid-area: row1;
 }
 
 .container__audiovisual__item:nth-child(3){
-    grid-area: rowright;
+    grid-area: row2;
+}
+.container__audiovisual__item:nth-child(4){
+    grid-area: row3;
 }
 
 
-div.container__audiovisual__item--mod { 
-    width: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
+.container__audiovisual__item--mod { 
+    width: 100%;
+    padding: 2em;
     background: 
  
     linear-gradient(
       to left,
-      rgba(238, 194, 0,0.3),
+      rgba(0, 145, 24, 0.3),
       #2c2c2c
     );
 }
 
-.container__audiovisual__item__child1{
-    text-align: right;
-}
-
-.container__audiovisual__item__child2{
-    text-align: left;
-}
 
 .container__audiovisual__item h4{
     font-size: 1.5em;
@@ -223,11 +218,46 @@ div.container__audiovisual__item--mod {
     margin-bottom: 2em;
 }
 
+.container__audiovisual__item img{
+   width: 100%;
+
+    max-height: 300px;
+}
+
 
 /*--------------------------------- FOOTER ---------------------------------*/
+.container__footer__col:nth-child(1){
+    grid-column: 2 / 3;
+}
+.container__footer__col input[type=text], input[type=email]{
+    width: 100%;
+    border-radius: 4px;
+    
+}
+.container__footer__col  textarea{
+    width: 100%;
+    border-radius: 4px;
+    resize: none;
+}
+
+.container__footer__col h4{
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 3rem;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 0.8em;
+
+}
 .container__footer--mod{
-    background: #424242;
+
+    background: url(img/honeycomb-34984_1280.webp),#424242;
+   
+    
+    
     margin-top: 5px;
+    padding: 2em 1em 3em 1em;
 }
 
 .container__footer h4{
@@ -235,18 +265,5 @@ div.container__audiovisual__item--mod {
     margin-top: 50px;
 }
 
-.container__footer a{
-    text-decoration: none;
-    color:rgb(110, 110, 110);
-    font-size: 12px;
-}
 
-.container__footer li{
-    margin-top: 10px;
-}
 
-.container__footer ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
