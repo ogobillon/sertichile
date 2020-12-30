@@ -15,9 +15,9 @@
 
 .container__header{
     display: grid;
-    grid-template-columns: minmax(500px, 1fr) 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-auto-flow: row;
-    height: 90px;
+    height: 5.625em;
     /*box-shadow: inset 0px 2px 5px -2px #000000;*/
 }
 
@@ -26,8 +26,9 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto auto auto ;
     grid-template-areas: "title title title title"
-                         "row2left row2left row2right row2right"
-                         "row31 row32 row33 row34";
+                         "row31 row32 row33 row34"
+                         
+                         ;
     
     
     align-content: start;                    

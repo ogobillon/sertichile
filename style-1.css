@@ -18,7 +18,7 @@ body{
 .container__social--mod a{
     text-decoration: none;
     color: #808080;
-    font-size: 24px;
+    font-size: 1.5em;
     margin: 7px 14px 7px 14px;
 }
 
@@ -38,16 +38,17 @@ body{
 }
 
 .container__header__left{
-    display: grid;
-    align-items: center;  
+    /*display: grid;
+    align-items: center;  */
 }
 
 .container__header__left h3{
     position:relative;
-    bottom: 35px;
-    margin-left: 10%;
+    bottom: 2.1875rem;
+    left:1em;
+  /*  margin-left: 0;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 0;*/
     color: rgb(5, 22, 255);
     font-size: 5em;
     -webkit-text-stroke: 2px rgb(255, 255, 255);
@@ -58,7 +59,7 @@ display: flex;
 flex-direction: row;
 flex-wrap: nowrap;
 align-items: center;
-padding-left: 80px;
+padding-left: 5em;
 }
 
 .container__header__right h2{
@@ -93,7 +94,7 @@ padding-left: 80px;
 }
 
 .container__informatica__item__box{
-    height: 420px;
+    height: 26.25em;
     border: 1px solid rgb(244,244,244);
     background: rgb(244,244,244);
 }
@@ -124,7 +125,7 @@ padding-left: 80px;
 
 .container__informatica__item img{
     width: 100%;
-    max-height: 300px;
+    max-height: 18.75em;
     color:rgb(51,51,51); 
 }
 
@@ -139,8 +140,8 @@ padding-left: 80px;
 
 .container__informatica__item__text p{
     color:rgb(51,51,51);
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 1em;
+    line-height: 1.5em;
 }
 /*--------------------------------- AUDIOVISUAL ---------------------------------*/
 .container__audiovisual--mod{
@@ -219,9 +220,8 @@ padding-left: 80px;
 }
 
 .container__audiovisual__item img{
-   width: 100%;
-
-    max-height: 300px;
+    width: 100%;
+    max-height: 18.75em;
 }
 
 
@@ -232,23 +232,24 @@ padding-left: 80px;
 .container__footer__col input[type=text], input[type=email]{
     width: 100%;
     border-radius: 4px;
+    margin: 10px 0;
     
 }
 .container__footer__col  textarea{
     width: 100%;
     border-radius: 4px;
     resize: none;
+    margin: 10px 0;
 }
 
-.container__footer__col h4{
+.container__footer__col h3{
     text-transform: uppercase;
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: 700;
     line-height: 3rem;
     letter-spacing: 2px;
     text-align: center;
-    padding: 0.8em;
-
+    margin-bottom: 1em;
 }
 .container__footer--mod{
 
@@ -261,8 +262,16 @@ padding-left: 80px;
 }
 
 .container__footer h4{
-    margin-bottom: 20px;
-    margin-top: 50px;
+    margin-bottom: 1.25em;
+    margin-top: 3.125em;
+}
+
+.container__footer ul{
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+      
 }
 
 

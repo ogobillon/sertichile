@@ -1,0 +1,60 @@
+@media (max-width: 1200px){
+    body{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 992px){
+    body{
+        font-size: 14px;
+    }
+    .container--mod{
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px){
+    body{
+        font-size: 12px;
+    }
+    .container--mod{
+        width: 100%;
+    }
+    .container__informatica{
+        grid-template-areas: "title title title title"
+                             "row31 row31 row32 row32"
+                             "row33 row33 row34 row34"
+                         
+                         ;
+    }
+    .container__audiovisual{
+        grid-template-areas: "title title title"
+                             "row1 row2  row2"
+                             "row1 row3  row3";
+    }
+    
+}
+
+@media (max-width: 576px){
+    body{
+        font-size: 10px;
+    }
+    .container--mod{
+        width: 100%;
+    }
+    .container__informatica{
+        grid-template-areas: "title title title title"
+                             "row31 row31 row31 row31"
+                             "row32 row32 row32 row32"
+                             "row33 row33 row33 row33"
+                             "row34 row34 row34 row34"
+                         
+                         ;
+    }
+    .container__audiovisual{
+        grid-template-areas: "title title title"
+                             "row1 row1  row1"
+                             "row2 row2  row2"
+                             "row3 row3  row3";
+    }
+}
