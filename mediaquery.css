@@ -15,7 +15,7 @@
 
 @media only screen and (max-width: 768px){
     body{
-        font-size: 14px;
+       /* font-size: 14px;*/
     }
     .container--mod{
         width: 100%;
@@ -37,7 +37,7 @@
 
 @media only screen and (max-width: 576px){
     body{
-        font-size: 12px;
+       /* font-size: 12px;*/
     }
     .container--mod{
         width: 100%;
