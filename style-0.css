@@ -7,10 +7,10 @@
 .container__social{
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    position:-webkit-sticky;
+    /*position:-webkit-sticky;*/
 }
 
 .container__header{
@@ -48,7 +48,7 @@
     align-content: start;                    
     align-items:start;
     justify-items: stretch;
-    gap: 4px;
+    gap: 10px;
 }
 
 .container__footer{
