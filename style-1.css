@@ -47,12 +47,6 @@ body{
     margin-left: 10%;
     margin-top: 0;
     margin-bottom: 0;
-    /*background: -webkit-linear-gradient(left top, rgb(5, 22, 255), rgb(255, 0, 191));
-    background: linear-gradient(to bottom right,  rgb(5, 22, 255), rgb(255, 0, 191));
-     -webkit-background-clip: text;  
-     -webkit-text-fill-color: transparent; 
-    
-    /*font-family: 'Cinzel Decorative', cursive;*/
     color: rgb(5, 22, 255);
     font-size: 5em;
     -webkit-text-stroke: 2px rgb(255, 255, 255);
@@ -98,18 +92,15 @@ padding-left: 80px;
 }
 
 .container__informatica__item__box{
-    min-height: 400px;
+    height: 410px;
     border: 1px solid rgb(244,244,244);
     background: rgb(244,244,244);
 }
 
 .container__informatica__item__title{
     text-align: center;
-
     background: linear-gradient(to right, rgba(5, 22, 255,0.8), rgba(255, 0, 191,1)), url(img/binary.png);
-    
-    color: #fff;
-    
+    color: #fff; 
 }
 
 .container__informatica__item__title h4{
@@ -132,6 +123,7 @@ padding-left: 80px;
 
 .container__informatica__item img{
     width: 100%;
+    max-height: 300px;
     color:rgb(51,51,51); 
 }
 
@@ -139,9 +131,9 @@ padding-left: 80px;
     /*color:rgb(0, 20, 204);*/
     color: rgb(5, 22, 255);
     font-weight: 700;
-    font-size: 22px;
-    margin-bottom: 20px;
-    margin-top: 20px;   
+    font-size: 1.375em;
+    margin-bottom: 1em;
+    margin-top: 1em;   
 }
 
 .container__informatica__item__text p{
@@ -151,20 +143,34 @@ padding-left: 80px;
 }
 /*--------------------------------- AUDIOVISUAL ---------------------------------*/
 .container__audiovisual--mod{
-   background: #2c2c2c;
+  /* background: #2c2c2c;*/
    color: #fff;
    font-size: 1rem;
-   padding: 3em;
+   
    margin-top: 5px;
 }
 
 .container__audiovisual--mod h2{
     
+
+   /* color: rgba(5, 22, 255);*/
+   color: #fff;
     text-transform: uppercase;
     font-size: 2em;
-    font-weight: 100;
+    font-weight: 700;
     line-height: 3rem;
     letter-spacing: 2px;
+    text-align: center;
+    padding: 0.8em;
+}
+
+.container__audiovisual__item--title{
+    /*background: rgba(255, 0, 191);*/
+
+    background: linear-gradient(to right, rgba(255, 0, 191,0), rgba(255, 0, 191,1)), url(img/meadow.png);
+    
+    width: 100%;
+    background-size: cover;
 }
 
 .container__audiovisual__item:nth-child(1){
@@ -173,22 +179,15 @@ padding-left: 80px;
 }
 
 .container__audiovisual__item:nth-child(2){
-    grid-area: row2left;
+    grid-area: rowleft;
 }
 
 .container__audiovisual__item:nth-child(3){
-    grid-area: row2right;
+    grid-area: rowright;
 }
 
-.container__audiovisual__item:nth-child(4){
-    grid-area: row3left;
-}
 
-.container__audiovisual__item:nth-child(5){
-    grid-area: row3right;
-}
-
-div.container__audiovisual__item { 
+div.container__audiovisual__item--mod { 
     width: 50%;
     display: block;
     margin-left: auto;

@@ -42,8 +42,8 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto auto auto ;
     grid-template-areas: "title title title title"
-                         "row2left row2left row2right row2right"
-                         "row3left row3left row3right row3right";
+                         "rowleft rowleft rowright rowright"
+                         "rowleft rowleft rowright rowright";
     
     
     align-content: start;                    
