@@ -18,8 +18,8 @@ body{
 .container__social--mod a{
     text-decoration: none;
     color: #808080;
-    font-size: 1.5em;
-    margin: 0.4375em 0.675em 0.4375em 0.675em;
+    font-size: 1.2em;
+    margin: 0.5em;
 }
 
 .container__social--mod a:hover{
@@ -91,7 +91,6 @@ body{
     background: rgb(244,244,244);
     display: flex;
     flex-direction: column;
-    
     flex-wrap: wrap;
 }
 
@@ -109,11 +108,11 @@ body{
     letter-spacing: 2px;
     padding: 0.8em;
 }
-
+/*
 .container__informatica__item__title img{
     flex-grow: 1;
     opacity: 0.3;
-}
+}*/
 
 .container__informatica__item__text{
     background: rgb(244,244,244);
@@ -155,10 +154,8 @@ body{
 
 }
 
-.container__audiovisual--mod h2{
-    
+.container__audiovisual__item--title h2{
 
-   /* color: rgba(5, 22, 255);*/
    color: #fff;
     text-transform: uppercase;
     font-size: 2em;
@@ -170,17 +167,19 @@ body{
 }
 
 .container__audiovisual__item--title{
-    /*background: rgba(255, 0, 191);*/
-
-    background: linear-gradient(to right, rgba(255, 0, 191,0), rgba(255, 0, 191,1)), url(img/meadow.png);
+    display: block;
+    text-align: center;
     
-    width: 100%;
-    background-size: cover;
+    background-repeat: repeat;
+    background-size:cover;
+    background: linear-gradient(to right, rgba(255, 0, 191,0), rgba(255, 0, 191,1)), url(img/meadow.png);
+
+   
 }
 
 .container__audiovisual__item:nth-child(1){
     grid-area: title;
-    justify-self: center;
+    justify-self: stretch;
 }
 
 .container__audiovisual__item:nth-child(2){
