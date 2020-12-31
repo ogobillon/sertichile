@@ -213,8 +213,8 @@ body{
 }
 
 .container__audiovisual__item p{
-    font-size: 1em;
-    line-height: 1.3894em;
+    font-size: 1.3em;
+    line-height: 1.6em;
     letter-spacing: 1.2px;
     margin-bottom: 2em;
 }
@@ -228,6 +228,15 @@ body{
     width: 100%;
 }
 
+.container__audiovisual__item ul{
+    list-style-position: inside;}
+
+.container__audiovisual__item li{
+    line-height: 2em;
+    font-size: 1.3em;
+
+    letter-spacing: 1.2px;
+}
 
 /*--------------------------------- FOOTER ---------------------------------*/
 .container__footer__col:nth-child(1){
@@ -244,6 +253,7 @@ body{
     border-radius: 4px;
     resize: none;
     margin: 10px 0;
+    height: 6em;
    
 }
 
@@ -273,7 +283,7 @@ body{
     list-style-type: none;
     margin: 0;
     padding: 0;
-      
+    letter-spacing: 1.2px;
 }
 
 
