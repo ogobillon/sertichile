@@ -9,17 +9,35 @@ body{
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
+    font-size: 1rem;
 }
 /*--------------------------------- SOCIAL ---------------------------------*/
 .container__social--mod{
-    padding: 0.625rem;
+    font-size: 1rem;
+    height: 112px;
     background: #424242;
 }
+
+.container__social--mod div{
+    width: 50%;
+    height: 72px;
+   
+}
+
 .container__social--mod a{
     text-decoration: none;
     color: #808080;
     font-size: 1.2em;
-    margin: 0.5em;
+    margin: 0.5em;  
+}
+
+.container__social--mod div:nth-child(1){
+    padding: 20px 0 20px 100px;
+}
+.container__social--mod div:nth-child(2){
+    text-align: right;
+    padding: 20px 20px 0 0;
+    
 }
 
 .container__social--mod a:hover{
@@ -30,41 +48,31 @@ body{
     background: #181818;
     background: linear-gradient(to left, #222222, #121212);
     border-top: 2px solid rgba(255, 0, 191,1);
-    
-}
+    height: 46px; 
+    padding-left: 100px;
+}  
+
 
 .container__header--mod a{
     text-decoration: none;
-}
+    
+}  
 
-
-.container__header__left h3{
-    position:relative;
-    bottom: 2.1875rem;
-    left:0.5em;
-    color: rgb(5, 22, 255);
-    font-size: 3.5em;
-    -webkit-text-stroke: 2px rgb(255, 255, 255);
-}
-
-.container__header__right{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
-    padding-left: 5em;
-}
-
-.container__header__right h2{
-    font-size: 1em;
-    padding: 0.8125em 3.125em 0 0.8125em;
+.container__header h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.125em;
+    font-weight: 100;
+    padding: 0.875em 0.625em 0.875em 0;
+    margin-right: 0.625em;
     color: #fff;
     letter-spacing: 1.5px;
+    
 }
 /*--------------------------------- INFORMATICA ---------------------------------*/
 
 .container__informatica--mod{
     margin-top: 1em;
+    font-size: 1rem;
 }
 .container__informatica__item:nth-child(1){
     grid-area: title;
@@ -92,7 +100,19 @@ body{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    font-size: 1em;
 }
+
+.container__informatica__item__box img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    color:rgb(51,51,51); 
+}
+
 
 .container__informatica__item__title{
     text-align: center;
@@ -108,30 +128,16 @@ body{
     letter-spacing: 2px;
     padding: 0.8em;
 }
-/*
-.container__informatica__item__title img{
-    flex-grow: 1;
-    opacity: 0.3;
-}*/
+
 
 .container__informatica__item__text{
     background: rgb(244,244,244);
     padding: 10px;
     flex-grow: 1;
-}
-
-.container__informatica__item img{
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    color:rgb(51,51,51); 
+    font-size: 1em;
 }
 
 .container__informatica__item__text h3{
-    /*color:rgb(0, 20, 204);*/
     color: rgb(5, 22, 255);
     font-weight: 700;
     font-size: 1.5em;
@@ -146,7 +152,6 @@ body{
 }
 /*--------------------------------- AUDIOVISUAL ---------------------------------*/
 .container__audiovisual--mod{
-  /* background: #2c2c2c;*/
    color: #fff;
    font-size: 1rem;
    height: auto;
@@ -155,14 +160,12 @@ body{
 }
 
 .container__audiovisual__item--title h2{
-
     color: rgb(255, 255, 255);
     text-transform: uppercase;
     font-size: 2em;
     font-weight: 700;
     line-height: 1em;
     letter-spacing: 2px;
-  
     padding: 0 0.8em;
 }
 
@@ -172,9 +175,7 @@ body{
     align-items: flex-end;
     background-repeat: repeat;
     background-size:cover;
-    background: linear-gradient(to right, rgba(255, 0, 191,0), rgba(255, 0, 191,1)), url(img/meadow.png);
-
-   
+    background: linear-gradient(to right, rgba(255, 0, 191,0), rgba(255, 0, 191,1)), url(img/meadow.png); 
 }
 
 .container__audiovisual__item:nth-child(1){
@@ -190,7 +191,6 @@ body{
 .container__audiovisual__item:nth-child(3){
     grid-area: row2;
 }
-
 
 
 .container__audiovisual__item--mod { 
