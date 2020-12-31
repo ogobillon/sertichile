@@ -34,21 +34,23 @@
     align-content: start;                    
     align-items:start;
     justify-items: stretch;
-    gap: 10px;
+    row-gap: 1.875em;
+    column-gap: 0.625em;
    
 }
 
 .container__audiovisual{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto auto auto ;
-    grid-template-areas: "title title title"
-                         "row1 row2  row3";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2,minmax(200px, auto)) auto;
+    grid-template-areas: "title title"
+                         "row1 row2";
     
     align-content: start;                    
     align-items:start;
     justify-items: stretch;
-    gap: 10px;
+    row-gap: 1.875em;
+    column-gap: 0.625em;
 }
 
 .container__footer{

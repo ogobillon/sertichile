@@ -27,11 +27,8 @@
                          
                          ;
     }
-    .container__audiovisual{
-        grid-template-areas: "title title title"
-                             "row1 row2  row2"
-                             "row1 row3  row3";
-    }
+
+
     
 }
 
@@ -52,9 +49,9 @@
                          ;
     }
     .container__audiovisual{
-        grid-template-areas: "title title title"
-                             "row1 row1  row1"
-                             "row2 row2  row2"
-                             "row3 row3  row3";
+        grid-template-areas: "title title"
+                             "row1 row1"
+                             "row2 row2"
+                             ;
     }
 }
