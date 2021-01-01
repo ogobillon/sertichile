@@ -11,6 +11,54 @@ body{
     margin: 0 auto;
     font-size: 1rem;
 }
+
+header{
+width: 100%;
+}
+header label{
+    display: none;
+    color: #fff;
+    font-size: 2em;
+    width: 30px;
+    height: 30px;
+    margin: 4px;
+    
+}
+
+
+
+header label:hover{
+cursor: pointer;
+}
+.main__menu li a:hover{
+    color: rgb(150,150,150);
+    }
+
+#boton-menu{
+    display: none;
+}
+
+.main__menu ul{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+
+
+.main__menu li a{
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.125em;
+    font-weight: 100;
+    color: #fff;
+    letter-spacing: 1.5px;
+
+}
+
 /*--------------------------------- SOCIAL ---------------------------------*/
 .container__social--mod{
     font-size: 1rem;
@@ -45,27 +93,27 @@ body{
 }
 /*--------------------------------- HEADER ---------------------------------*/
 .container__header--mod{
-    background: #181818;
+    
     background: linear-gradient(to left, #222222, #121212);
     border-top: 2px solid rgba(255, 0, 191,1);
     height: 46px; 
-    padding-left: 100px;
+    /*padding-left: 100px;*/
 }  
 
-
+/*
 .container__header--mod a{
     text-decoration: none;
     
-}  
+}  */
 
 .container__header h2{
-    font-family: Arial, Helvetica, sans-serif;
+  /*  font-family: Arial, Helvetica, sans-serif;
     font-size: 1.125em;
     font-weight: 100;
     padding: 0.875em 0.625em 0.875em 0;
     margin-right: 0.625em;
     color: #fff;
-    letter-spacing: 1.5px;
+    letter-spacing: 1.5px;*/
     
 }
 /*--------------------------------- INFORMATICA ---------------------------------*/
