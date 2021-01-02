@@ -2,111 +2,145 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="pc, servicios, reparacion">
     <meta name="description" content="Servicios computacionales. Desarrollo Web.">
     <meta name="author" content="oga">
     <meta name="robots" content="index">
-    <link rel="icon" href="img/logo_serti.ico">
+    <link rel="icon" href="img/serti-logo32x32.ico">
     <link rel="stylesheet" type="text/css" href="normalize.css">
     <link rel="stylesheet" type="text/css" href="style-0.css">
     <link rel="stylesheet" type="text/css" href="style-1.css">
+    <link rel="stylesheet" type="text/css" href="mediaquery.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/9e165df117.js" crossorigin="anonymous"></script>
     <title>Serti</title>
 </head>
 <body>
     <div class="container container--mod">
         <div class="container__social container__social--mod">
-           
-           <a href="#" target="_blank"><i class="fas fa-phone"></i></a>
-           <a href="#" target="_blank"><i class="fas fa-envelope"></i></a>
-           <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
-           <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
-     
-            
+            <div>
+                <img src="img/serti-logo-GBI-68x68.jpg" alt="serti">
+            </div>
+            <div>
+                <a href="#" target="_blank"><i class="fas fa-phone"></i></a>
+                <a href="#conta" ><i class="fas fa-envelope"></i></a>
+            </div>
         </div>
         <div class="container__header container__header--mod">
-            
-                <div class="container__header__left"><h3>SERTI</h3></div>
-                <div class="container__header__right">
-                    <a href="#"><H2>INFORMATICA</H2></a>
-                    <a href="#"><H2>AUDIOVISUAL</H2></a>
-                </div>
-           
+            <header>
+                <input type="checkbox" id="boton-menu">
+                <label for="boton-menu"><img src="img/bars-solid68.png" alt=""></label>
+
+                <nav class="main__menu">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="servicios.html">Servicios</a></li>
+                        <li><a href="ventas.html">Ventas</a></li>
+                        <li><a href="#conta">Contacto</a></li>
+                    </ul>
+                </nav>
+            </header>                       
         </div>
 
-        <div class="container__informatica">
+        <div class="container__informatica container__informatica--mod">
             <div class="container__informatica__item ">
                 <div class="container__informatica__item__title">
-                    <img src="img/binary.png" alt="">
-                    <h4>Soluciones informaticas</h4>         
+                    <h4 id="sol-inf">SOLUCIONES INFORMÁTICAS</h4>         
                 </div>
             </div>
             <div class="container__informatica__item">
                 <div class="container__informatica__item__box">
-                    <img src="https://sadra-isp.ir/wp-content/uploads/2020/05/noc-service-provider.jpg"" alt="">
+                    <img src="img/informaticos-01.png" alt="rendimiento">
                     <div class="container__informatica__item__text">
-                        <h3>Alto Rendimiento</h3>
-                        <p>PC Gamer.Servidores.Workstation.</p>
+                        <h3>RENDIMIENTO</h3>
+                        <p>PC Gamer. Servidores. Workstation.</p>
+                        <p>Armamos equipos de acuerdo a sus requerimientos.</p>
+                        <p>Orientamos en el proceso.</p>
+                        </div>
+                </div>         
+            </div>
+            <div class="container__informatica__item">
+                <div class="container__informatica__item__box">
+                    <img src="https://sadra-isp.ir/wp-content/uploads/2020/05/noc-service-provider.jpg" alt="redes">
+                    <div class="container__informatica__item__text">
+                        <h3>REDES</h3>
+                        <p>Configuración de redes inalambricas (WIFI), instalación de router. </p>
+                   
+                        </p>
                     </div>
                 </div>         
             </div>
             <div class="container__informatica__item">
                 <div class="container__informatica__item__box">
-                    <img src="https://sadra-isp.ir/wp-content/uploads/2020/05/noc-service-provider.jpg" alt="">
+                    <img src="img/upgrade.jpg" alt="upgrade">
                     <div class="container__informatica__item__text">
-                        <h3>Redes</h3>
-                        <p>Configuración de redes inalambricas (WIFI), instalación de router.</p>
+                        <h3>UPGRADE</h3>
+                        <p>Ampliación de memoria RAM. Tarjetas de Video. Discos Duros SSD.</p>
+                        <p>Trabajamos con las mejores marcas del mercado.</p>
                     </div>
                 </div>         
             </div>
             <div class="container__informatica__item">
                 <div class="container__informatica__item__box">
-                    <img src="https://sadra-isp.ir/wp-content/uploads/2020/05/noc-service-provider.jpg" alt="">
+                    <img src="img/backup.webp" alt="backup">
                     <div class="container__informatica__item__text">
-                        <h3>Upgrade</h3>
-                        <p>Ampliación de memoria RAM.Tarjetas de Video.Discos Duros SSD.</p>
-                    </div>
-                </div>         
-            </div>
-            <div class="container__informatica__item">
-                <div class="container__informatica__item__box">
-                    <img src="https://sadra-isp.ir/wp-content/uploads/2020/05/noc-service-provider.jpg" alt="">
-                    <div class="container__informatica__item__text">
-                        <h3>Backup</h3>
+                        <h3>BACKUP</h3>
                         <p>Respaldo de archivos y documentos importantes. Recuperación de archivos inaccesibles.</p>
                     </div>
                 </div>         
             </div>
         
         </div>
-        <div class="container__audiovisual container__audiovisual--mod">
-            <div class="container__audiovisual__item">
-                <img src="img/matri-novia.jpg" alt="">
-           </div>
-           <div class="container__audiovisual__item">
-            <img src="img/kisspng-4k.png" alt="">
-       </div>
+        <div id="sol-aud" class="container__audiovisual container__audiovisual--mod">
+                <div class="container__audiovisual__item container__audiovisual__item--title">
+                    <h2 >SERVICIOS AUDIOVISUALES</h2>
+                </div>
+                <div class="container__audiovisual__item container__audiovisual__item--mod">
+                    <h4>VIDEOS WEB</h4>
+                    <p>Campañas informativas.
+                       Difusión institucional.
+                    </p>
+                    <h4>ANIMACIÓN DIGITAL</h4>
+                    <p>Creación de videos a partir de material gráfico.
+                       Animación de textos y efectos visuales.
+                    </p>
+                    <img src="img/matri-novia.jpg" alt="">
+                </div>
+                <div class="container__audiovisual__item container__audiovisual__item--mod">
+                    <img src="img/kisspng-4k.png" alt="">
+                    <h4>EDICIÓN DIGITAL</h4>
+                    <ul>
+                        <li>Procesamiento HD Y 4K.</li>
+                        <li>Objetivos específicos del cliente.</li>
+                        <li>Conversión de formatos, recortes, logos, etc.</li>
+                        <li>Post-Producción gráfica y sonido.</li>
+                    </ul>
+                </div>
+             
+                
+            
         </div>
         <footer>
         <div class="container__footer container__footer--mod">
             <div class="container__footer__col">
-                <h4>EMPRESA</h4>
+                <h3 id="conta">CONTÁCTENOS</h3>
+                <form action=""></form>
                 <ul>
-                    <li><a href="#">Acerca de SERTICHILE</a></li>
-          
-                </ul>
-            </div>
-            <div class="container__footer__col">
-                <h4>CONTACTO</h4>
-                <ul>
-                    <li><a href="#">Contáctanos</a></li>
-                    <li><a href="#">Redes Sociales</a></li>
-          
-                </ul>
+                    <li>
+                      <label for="name">Nombre</label>
+                      <input type="text" id="name" name="user_name">
+                    </li>
+                    <li>
+                      <label for="mail">Correo electrónico</label>
+                      <input type="email" id="mail" name="user_mail">
+                    </li>
+                    <li>
+                      <label for="msg">Mensaje</label>
+                      <textarea id="msg" name="user_message"></textarea>
+                    </li>
+                 </ul>  
             </div>
             
             
